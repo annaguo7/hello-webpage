@@ -1,0 +1,62 @@
+#content{
+    margin: 5px;
+    align: center;
+
+}
+
+#content p{
+    font: lighter;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: maroon;
+
+}
+
+
+#generate{
+    text-align: center;
+    font-size: 10PT;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: goldenrod;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+
+}
+
+#generate:hover{
+    color: maroon;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.generated-content{
+    color:black;
+    font-size: 15pt;
+    padding: 30px;
+    background-color:lightgoldenrodyellow;
+}
+
+
+h1{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2px;
+    font-size: 30pt;
+    color: maroon;
+
+}
+
+
+a:hover{
+    color: maroon;
+}
